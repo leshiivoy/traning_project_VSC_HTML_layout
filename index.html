@@ -16,19 +16,19 @@
 <body>
     <div class="block"></div>
 
-    <header class="header">
+    <header class="header" id="header">
         <h1 class="header-title">Владимир Иванов</h1>
         <p class="header-subtitle">фрилансер, веб-разработчик, создание сайтов</p>
-        <div class="header-arrow">
+        <a href="#portfolio" class="header-arrow">
             <img src="./img/header/chevron-down.svg" alt="Arrow">
-        </div>
+        </a>
     </header>
-    
+
     <main>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <div class="container">
                 <h2 class="portfolio-header">Портфолио</h2>
-                <div class="portfolio-cards-wrapper">              
+                <div class="portfolio-cards-wrapper">
                     <div class="card">
                         <a href="forest-travel.html" class="card-link">
                             <img class="card-img" src="./img/portfolio/Group 5.jpg" alt="Многостраничный сайт">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-    
+
         </div>
     </main>
 
@@ -94,12 +94,20 @@
                 </div>
 
                 <div class="footer-contact footer-col">
-                    <a href="https://www.tutu.ru/geo/article/poleznye-ssylki-dlya-puteshestvennikov/" class="footer-button">Связаться Вконтакте</a>
+                    <a href="https://www.tutu.ru/geo/article/poleznye-ssylki-dlya-puteshestvennikov/"
+                        class="footer-button">Связаться Вконтакте</a>
                     <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта</p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Библиотеки и плагины -->
+    <script src="./libs/jquery/jquery-3.7.1.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+
+    <!-- Собственные скрипты и вызовы библиотек -->
+    <script src="./js/main.js"></script>
 
 </body>
 
